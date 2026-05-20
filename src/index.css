@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Corrected CSS to fix layout issues */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Fix */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Improved Banner Overlay */
+.banner-image {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4); /* Better control over overlay */
+  opacity: 1; /* Remove opacity property */
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.section-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Standardized Header Styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .banner-image {
+    height: 50vh;
+  }
+
+  .card-image {
+    height: 150px;
+  }
+
+  main {
+    padding-bottom: 2rem;
+  }
+}
+
+/* Explicit Navbar Height Fix */
+.navbar {
+  height: auto;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/* Fix for section-side-img class if used */
+.section-side-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

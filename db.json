@@ -1,0 +1,172 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "name": "Suzuki-Alto",
+      "image": "/assets/Alto-Solid-White.jpg",
+      "price": 3000,
+      "description": "Compact economy car for city travel. Model year: 2022. Category: Economy.",
+      "category": "Economy",
+      "model": "2022",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "2",
+      "name": "Toyota Corolla",
+      "image": "/assets/corolla.jpg",
+      "price": 4500,
+      "description": "Reliable and efficient compact sedan with great fuel economy. Model year: 2020. Category: Sedan.",
+      "category": "Sedan",
+      "model": "2020",
+      "applied": false,
+      "confirmed": false,
+      "renterName": "",
+      "renterPhone": "",
+      "pickup": "",
+      "return": "",
+      "days": ""
+    },
+    {
+      "id": "3",
+      "name": "Honda City",
+      "image": "/assets/Honda_City_Front.jpg",
+      "price": 5500,
+      "description": "Stylish compact sedan with modern features. Model year: 2020. Category: Sedan.",
+      "category": "Sedan",
+      "model": "2020",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "4",
+      "name": "Land Cruiser",
+      "image": "/assets/Land_Cruiser.png",
+      "price": 9000,
+      "description": "Spacious and powerful SUV great for long trips. Model year: 2022. Category: SUV.",
+      "category": "SUV",
+      "model": "2022",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "5",
+      "name": "Toyota Fortuner",
+      "image": "/assets/Fortuner.png",
+      "price": 10500,
+      "description": "Reliable SUV built to handle rugged terrain. Model year: 2022. Category: SUV.",
+      "category": "SUV",
+      "model": "2022",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "6",
+      "name": "Haval H6",
+      "image": "/assets/Haval_H6_Front.jpg",
+      "price": 32000,
+      "description": "Compact hatchback perfect for budget trips. Model year: 2024. Category: Economy.",
+      "category": "Economy",
+      "model": "2024",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "8",
+      "name": "GTR",
+      "image": "/assets/gtr.jpg",
+      "price": 95000,
+      "description": "Classic rear-wheel sports coupe with punch. Model year: 2020. Category: Sports.",
+      "category": "Sports",
+      "model": "2020",
+      "applied": false,
+      "confirmed": false,
+      "renterName": "",
+      "renterPhone": ""
+    },
+    {
+      "id": "7",
+      "name": "Ford Mustang",
+      "image": "/assets/mastang.jpg",
+      "price": 100000,
+      "description": "Iconic American sports car with thrilling power. Model year: 2019. Category: Sports.",
+      "category": "Sports",
+      "model": "2019",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "9",
+      "name": "Mazda MX-5 Miata",
+      "image": "/assets/mazda 2.jpg",
+      "price": 85000,
+      "description": "Fun, lightweight roadster for pure driving. Model year: 2023. Category: Sports.",
+      "category": "Sports",
+      "model": "2023",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "10",
+      "name": "Toyota Altis",
+      "image": "/assets/altis.jpg",
+      "price": 35000,
+      "description": "Economical and reliable daily driver. Model year: 2021. Category: Economy.",
+      "category": "Economy",
+      "model": "2021",
+      "applied": true,
+      "confirmed": true,
+      "renterName": "Muhammad Anus Iqbal",
+      "renterPhone": "6789",
+      "pickup": "2025-06-17",
+      "return": "2025-06-21",
+      "days": "4"
+    },
+    {
+      "id": "11",
+      "name": "BMW",
+      "image": "https://www.shutterstock.com/image-photo/prag-czech-republic-august-21-600nw-2196552419.jpg",
+      "price": 100000,
+      "description": "Precious car for elite users",
+      "category": "Sedan",
+      "model": "2022",
+      "applied": false,
+      "confirmed": false
+    },
+    {
+      "id": "11",
+      "name": "Mercedes Benz",
+      "image": "/assets/mercedez.jpg",
+      "price": 120000,
+      "description": "Luxury car for elite users",
+      "category": "Sedan",
+      "model": "2022",
+      "applied": false,
+      "confirmed": false
+    }
+  ],
+  "applications": [
+    {
+      "id": "e272",
+      "name": "Urwha Nisar",
+      "phone": "03327486512",
+      "email": "urwha.nisar9@gmail.com",
+      "pickup": "2025-06-18",
+      "return": "2025-06-23",
+      "days": "5",
+      "carId": "1"
+    },
+    {
+      "id": "ff29",
+      "car_name": "city",
+      "car_category": "sedan",
+      "name": "talha qadir",
+      "phone": "0332 7486512",
+      "email": "mtq779@gmail.com",
+      "pickup": "2025-06-18",
+      "return": "2025-06-21",
+      "days": "3",
+      "carId": ""
+    }
+  ]
+}
