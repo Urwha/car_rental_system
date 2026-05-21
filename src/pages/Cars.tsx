@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
+
 interface Car {
   id: string;
   name: string;
@@ -24,12 +27,12 @@ const Cars: React.FC = () => {
   const [priceFilter, setPriceFilter] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000/cars')
+    fetch(`${BASE_URL}/cars`)
       .then(res => res.json())
       .then(data => setCars(data))
       .catch(err => console.error('Error fetching cars:', err));
 
-    fetch('http://localhost:5000/applications')
+    fetch(`${BASE_URL}/applications`)
       .then(res => res.json())
       .then(data => setApplications(data))
       .catch(err => console.error('Error fetching applications:', err));
